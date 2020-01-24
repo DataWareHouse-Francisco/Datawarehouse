@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'Data',
 ]
 
 MIDDLEWARE = [
@@ -78,7 +79,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'datawarehouse',
         'USER' : 'postgres',
-        'PASSWORD': 'retrete',
+        'PASSWORD': 'racing11',
         'HOST': '127.0.0.1',
         'DATABASE_PORT': '5432',
     }
