@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'Data',
 ]
 
 MIDDLEWARE = [
@@ -76,7 +77,7 @@ WSGI_APPLICATION = 'proyectoDatawarehouse.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'DATAWAREHOUSE',
+        'NAME': 'datawarehouse',
         'USER' : 'postgres',
         'PASSWORD': 'retrete',
         'HOST': '127.0.0.1',
